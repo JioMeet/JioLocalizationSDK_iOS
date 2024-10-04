@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54D84D69C078BA107C0E4F7 /* Pods_JioLocalizationSDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EAA38EF28DA892332217DC /* Pods_JioLocalizationSDK_iOS.framework */; };
+		F3E4AECC2CAFEA3A0026B6FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E4AECB2CAFEA3A0026B6FC /* AppDelegate.swift */; };
+		F3E4AECE2CAFEA3A0026B6FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E4AECD2CAFEA3A0026B6FC /* SceneDelegate.swift */; };
+		F3E4AED02CAFEA3A0026B6FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E4AECF2CAFEA3A0026B6FC /* ViewController.swift */; };
+		F3E4AED32CAFEA3A0026B6FC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F3E4AED22CAFEA3A0026B6FC /* Base */; };
+		F3E4AED52CAFEA400026B6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E4AED42CAFEA400026B6FC /* Assets.xcassets */; };
+		F3E4AED82CAFEA400026B6FC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F3E4AED72CAFEA400026B6FC /* Base */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3E4AEEF2CAFEA7E0026B6FC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5858264352AADE9B461BE388 /* Pods-JioLocalizationSDK_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JioLocalizationSDK_iOS.debug.xcconfig"; path = "Target Support Files/Pods-JioLocalizationSDK_iOS/Pods-JioLocalizationSDK_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		60EAA38EF28DA892332217DC /* Pods_JioLocalizationSDK_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JioLocalizationSDK_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A465A9CD73D9FFB20EA271F /* Pods-JioLocalizationSDK_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JioLocalizationSDK_iOS.release.xcconfig"; path = "Target Support Files/Pods-JioLocalizationSDK_iOS/Pods-JioLocalizationSDK_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		F3E4AEC82CAFEA3A0026B6FC /* JioLocalizationSDK_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JioLocalizationSDK_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E4AECB2CAFEA3A0026B6FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3E4AECD2CAFEA3A0026B6FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3E4AECF2CAFEA3A0026B6FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3E4AED22CAFEA3A0026B6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3E4AED42CAFEA400026B6FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E4AED72CAFEA400026B6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3E4AED92CAFEA400026B6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3E4AEC52CAFEA3A0026B6FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54D84D69C078BA107C0E4F7 /* Pods_JioLocalizationSDK_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67753291D380B55F37E49489 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5858264352AADE9B461BE388 /* Pods-JioLocalizationSDK_iOS.debug.xcconfig */,
+				9A465A9CD73D9FFB20EA271F /* Pods-JioLocalizationSDK_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C24FD80B0CD5CB937AE6706F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60EAA38EF28DA892332217DC /* Pods_JioLocalizationSDK_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E4AEBF2CAFEA3A0026B6FC = {
+			isa = PBXGroup;
+			children = (
+				F3E4AECA2CAFEA3A0026B6FC /* JioLocalizationSDK_iOS */,
+				F3E4AEC92CAFEA3A0026B6FC /* Products */,
+				67753291D380B55F37E49489 /* Pods */,
+				C24FD80B0CD5CB937AE6706F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3E4AEC92CAFEA3A0026B6FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3E4AEC82CAFEA3A0026B6FC /* JioLocalizationSDK_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3E4AECA2CAFEA3A0026B6FC /* JioLocalizationSDK_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F3E4AECB2CAFEA3A0026B6FC /* AppDelegate.swift */,
+				F3E4AECD2CAFEA3A0026B6FC /* SceneDelegate.swift */,
+				F3E4AECF2CAFEA3A0026B6FC /* ViewController.swift */,
+				F3E4AED12CAFEA3A0026B6FC /* Main.storyboard */,
+				F3E4AED42CAFEA400026B6FC /* Assets.xcassets */,
+				F3E4AED62CAFEA400026B6FC /* LaunchScreen.storyboard */,
+				F3E4AED92CAFEA400026B6FC /* Info.plist */,
+			);
+			path = JioLocalizationSDK_iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3E4AEC72CAFEA3A0026B6FC /* JioLocalizationSDK_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E4AEDC2CAFEA400026B6FC /* Build configuration list for PBXNativeTarget "JioLocalizationSDK_iOS" */;
+			buildPhases = (
+				348CF23FDB96AA773453756C /* [CP] Check Pods Manifest.lock */,
+				F3E4AEC42CAFEA3A0026B6FC /* Sources */,
+				F3E4AEC52CAFEA3A0026B6FC /* Frameworks */,
+				F3E4AEC62CAFEA3A0026B6FC /* Resources */,
+				F3E4AEEF2CAFEA7E0026B6FC /* Embed Frameworks */,
+				32160244BDE50399B4ADC891 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JioLocalizationSDK_iOS;
+			productName = JioLocalizationSDK_iOS;
+			productReference = F3E4AEC82CAFEA3A0026B6FC /* JioLocalizationSDK_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3E4AEC02CAFEA3A0026B6FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F3E4AEC72CAFEA3A0026B6FC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F3E4AEC32CAFEA3A0026B6FC /* Build configuration list for PBXProject "JioLocalizationSDK_iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3E4AEBF2CAFEA3A0026B6FC;
+			productRefGroup = F3E4AEC92CAFEA3A0026B6FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3E4AEC72CAFEA3A0026B6FC /* JioLocalizationSDK_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3E4AEC62CAFEA3A0026B6FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E4AED52CAFEA400026B6FC /* Assets.xcassets in Resources */,
+				F3E4AED82CAFEA400026B6FC /* Base in Resources */,
+				F3E4AED32CAFEA3A0026B6FC /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32160244BDE50399B4ADC891 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JioLocalizationSDK_iOS/Pods-JioLocalizationSDK_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JioLocalizationSDK_iOS/Pods-JioLocalizationSDK_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JioLocalizationSDK_iOS/Pods-JioLocalizationSDK_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		348CF23FDB96AA773453756C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JioLocalizationSDK_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3E4AEC42CAFEA3A0026B6FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E4AED02CAFEA3A0026B6FC /* ViewController.swift in Sources */,
+				F3E4AECC2CAFEA3A0026B6FC /* AppDelegate.swift in Sources */,
+				F3E4AECE2CAFEA3A0026B6FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3E4AED12CAFEA3A0026B6FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E4AED22CAFEA3A0026B6FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3E4AED62CAFEA400026B6FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E4AED72CAFEA400026B6FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3E4AEDA2CAFEA400026B6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3E4AEDB2CAFEA400026B6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3E4AEDD2CAFEA400026B6FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5858264352AADE9B461BE388 /* Pods-JioLocalizationSDK_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSQ9KLSSUY;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JioLocalizationSDK_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ril.com.JioLocalizationSDK-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3E4AEDE2CAFEA400026B6FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A465A9CD73D9FFB20EA271F /* Pods-JioLocalizationSDK_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSQ9KLSSUY;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JioLocalizationSDK_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ril.com.JioLocalizationSDK-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3E4AEC32CAFEA3A0026B6FC /* Build configuration list for PBXProject "JioLocalizationSDK_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E4AEDA2CAFEA400026B6FC /* Debug */,
+				F3E4AEDB2CAFEA400026B6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E4AEDC2CAFEA400026B6FC /* Build configuration list for PBXNativeTarget "JioLocalizationSDK_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E4AEDD2CAFEA400026B6FC /* Debug */,
+				F3E4AEDE2CAFEA400026B6FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3E4AEC02CAFEA3A0026B6FC /* Project object */;
+}
