@@ -43,7 +43,7 @@ Ensure your project settings are configured to support the SDK:
 To add the `JioLocalizationSDKiOS` to your project, add the following to your `Podfile`:
 
 ```ruby
-pod 'JioLocalizationSDKiOS', '0.0.1-alpha'
+pod 'JioLocalizationSDKiOS', '0.0.2-alpha'
 ```
 
 ## Import SDK
@@ -127,7 +127,7 @@ You can use dynamic values in your localized strings by specifying placeholders 
 #### JSON Example:
 ```swift
 {
-  "welcome_message": "{name}, welcome to the Localization SDK."
+  "welcome_message": "{###}, welcome to the Localization SDK."
 }
 ```
 #### Code:
